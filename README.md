@@ -106,8 +106,9 @@ module.exports = Object.assign(jestConfig, {
 
 ## Inspiration
 
-This is a fork of [jl-toolbox](https://github.com/kentcdodds/jl-toolbox) from
-@kentcdodds, who was inspired by `react-scripts`.
+This is a fork of [kcd-scripts](https://github.com/kentcdodds/kcd-scripts) from
+[@kentcdodds](https://github.com/kentcdodds), who took his inspiration from
+`react-scripts`.
 
 ## Other Solutions
 
@@ -119,8 +120,11 @@ here! Again, this is a very specific-to-me solution.
 Thanks goes to these people ([emoji key][emojis]):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 | [<img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;"/><br /><sub><b>Kent C. Dodds</b></sub>](https://kentcdodds.com)<br />[💻](https://github.com/kentcdodds/jl-toolbox/commits?author=kentcdodds "Code") [📖](https://github.com/kentcdodds/jl-toolbox/commits?author=kentcdodds "Documentation") [🚇](#infra-kentcdodds "Infrastructure (Hosting, Build-Tools, etc)") [⚠️](https://github.com/kentcdodds/jl-toolbox/commits?author=kentcdodds "Tests") | [<img src="https://avatars2.githubusercontent.com/u/22251956?v=4" width="100px;"/><br /><sub><b>Suhas Karanth</b></sub>](https://github.com/sudo-suhas)<br />[💻](https://github.com/kentcdodds/jl-toolbox/commits?author=sudo-suhas "Code") [🐛](https://github.com/kentcdodds/jl-toolbox/issues?q=author%3Asudo-suhas "Bug reports") [⚠️](https://github.com/kentcdodds/jl-toolbox/commits?author=sudo-suhas "Tests") | [<img src="https://avatars0.githubusercontent.com/u/1402095?v=4" width="100px;"/><br /><sub><b>Matt Parrish</b></sub>](https://github.com/pbomb)<br />[💻](https://github.com/kentcdodds/jl-toolbox/commits?author=pbomb "Code") [⚠️](https://github.com/kentcdodds/jl-toolbox/commits?author=pbomb "Tests") | [<img src="https://avatars2.githubusercontent.com/u/163561?v=4" width="100px;"/><br /><sub><b>Jason Lengstorf</b></sub>](https://code.lengstorf.com)<br />[💻](https://github.com/kentcdodds/jl-toolbox/commits?author=jlengstorf "Code") [📖](https://github.com/kentcdodds/jl-toolbox/commits?author=jlengstorf "Documentation") [🚇](#infra-jlengstorf "Infrastructure (Hosting, Build-Tools, etc)") |
-| :---: | :---: | :---: | :---: |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors][all-contributors] specification.
