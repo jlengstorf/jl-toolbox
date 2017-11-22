@@ -1,16 +1,17 @@
-const path = require('path')
-const resolve = require('resolve')
-const {hasPkgProp, hasFile} = require('../../utils')
+/* eslint-disable global-require */
+const path = require('path');
+const resolve = require('resolve');
+const { hasPkgProp, hasFile } = require('../../utils');
 
 const useBuiltinConfig =
   !hasFile('.lintstagedrc') &&
   !hasFile('lint-staged.config.js') &&
-  !hasPkgProp('lint-staged')
+  !hasPkgProp('lint-staged');
 
-const lintStagedPath = require.resolve('lint-staged')
+const lintStagedPath = require.resolve('lint-staged');
 const cosmiconfigPath = resolve.sync('cosmiconfig', {
   basedir: path.dirname(lintStagedPath),
-})
+});
 
 // lint-staged uses cosmiconfig to find its configuration
 // and it has no other way to provide config
@@ -19,14 +20,13 @@ const cosmiconfigPath = resolve.sync('cosmiconfig', {
 // config so folks don't have to have that in their package.json
 function fakeCosmiconfig(...args) {
   if (args[0] === 'lint-staged') {
-    return Promise.resolve({config: require('../../config/lintstagedrc')})
-  } else {
-    return require(cosmiconfigPath)(...args)
+    return Promise.resolve({ config: require('../../config/lintstagedrc') });
   }
+  return require(cosmiconfigPath)(...args);
 }
 
 if (useBuiltinConfig) {
-  require.cache[cosmiconfigPath] = {exports: fakeCosmiconfig}
+  require.cache[cosmiconfigPath] = { exports: fakeCosmiconfig };
 }
 
-require(lintStagedPath)
+require(lintStagedPath);

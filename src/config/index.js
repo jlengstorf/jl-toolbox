@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 module.exports = {
   babel: require('./babelrc'),
   eslint: require('./eslintrc'),
@@ -5,4 +6,4 @@ module.exports = {
   lintStaged: require('./lintstagedrc'),
   prettier: require('./prettierrc'),
   getRollupConfig: () => require('./rollup.config'),
-}
+};

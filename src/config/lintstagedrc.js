@@ -1,7 +1,7 @@
-const {resolveKcdScripts, resolveBin, isOptedOut} = require('../utils')
+const { resolveKcdScripts, resolveBin, isOptedOut } = require('../utils');
 
-const kcdScripts = resolveKcdScripts()
-const doctoc = resolveBin('doctoc')
+const kcdScripts = resolveKcdScripts();
+const doctoc = resolveBin('doctoc');
 
 module.exports = {
   concurrent: false,
@@ -18,4 +18,4 @@ module.exports = {
     ],
     'README.md': [`${doctoc} --maxlevel 2 --notitle`, 'git add'],
   },
-}
+};
