@@ -2,13 +2,13 @@
   "name": "jl-toolbox",
   "description": "CLI for common scripts",
   "author": "Jason Lengstorf <jason@lengstorf.com> (https://lengstorf.com)",
-  "homepage": "https://github.com/kentcdodds/jl-toolbox#readme",
+  "homepage": "https://github.com/jlengstorf/jl-toolbox#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kentcdodds/jl-toolbox.git"
+    "url": "https://github.com/jlengstorf/jl-toolbox.git"
   },
   "bugs": {
-    "url": "https://github.com/kentcdodds/jl-toolbox/issues"
+    "url": "https://github.com/jlengstorf/jl-toolbox/issues"
   },
   "scripts": {
     "add-contributor": "node src contributors add",
@@ -95,7 +95,11 @@
       "no-nested-ternary": "off",
       "prettier/prettier": [
         "error",
-        { "bracketSpacing": true, "trailingComma": "all", "singleQuote": true }
+        {
+          "bracketSpacing": true,
+          "trailingComma": "all",
+          "singleQuote": true
+        }
       ]
     }
   },
