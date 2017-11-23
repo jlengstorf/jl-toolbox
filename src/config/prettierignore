@@ -4,3 +4,6 @@ dist/
 build/
 out/
 .next/
+
+# npm and prettier fight with each other over this
+package.json
