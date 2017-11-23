@@ -1,13 +1,16 @@
 # manual-releases
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-This project has an automated release set up. So things are only released when there are
-useful changes in the code that justify a release. But sometimes things get messed up one way or another
-and we need to trigger the release ourselves. When this happens, simply bump the number below and commit
-that with the following commit message based on your needs:
+This project has an automated release set up. So things are only released when
+there are useful changes in the code that justify a release. But sometimes
+things get messed up one way or another and we need to trigger the release
+ourselves. When this happens, simply bump the number below and commit that with
+the following commit message based on your needs:
 
 **Major**
 
@@ -44,4 +47,4 @@ change is to release a new patch version.
 Reference: #<the number of a relevant pull request, issue, or commit>
 ```
 
-The number of times we've had to do a manual release is: 0
+The number of times we've had to do a manual release is: 1
