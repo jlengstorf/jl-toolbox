@@ -1,4 +1,5 @@
 const { ifAnyDep } = require('../utils');
+const prettierConfig = require('./prettierrc');
 
 module.exports = {
   extends: [
@@ -12,9 +13,6 @@ module.exports = {
   ].filter(Boolean),
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      { bracketSpacing: true, trailingComma: 'all', singleQuote: true },
-    ],
+    'prettier/prettier': ['error', prettierConfig],
   },
 };
